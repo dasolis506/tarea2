@@ -1,0 +1,79 @@
+header, footer{
+
+    background: rgb(65, 148, 199);
+    color:white;
+}
+
+h1 {
+  color: rgb(23, 0, 128);
+}
+
+h2 {
+    color: rgb(117, 179, 230); 
+}
+
+body {
+    font-family:fantasy;
+    font-size:medium;
+    background-color:rgb(233, 233, 235);
+    text-align: center;
+  }
+
+  .fa {
+    padding: 2px;
+    width: 4px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .rojo{
+    color:red;
+
+  }
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+  
+    color: red;
+  }
+  /* instagram */
+  .fa-instagram {
+   
+    color: green;
+  }
+
+  /* Twitter */
+  .fa-twitter {
+   
+    color:blue;
+  }
+
+   /* Linkedin*/
+   .fa-linkedin {
+   
+    color: green;
+  }
+  ul {
+    text-align: center;
+    list-style-type:none;
+    border: 2px solid red;
+    background-color: yellow;
+    border-color: black;
+    padding: 5px;
+    border-radius: 50px;
+    width: 180px;
+    height: 100px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  
+
