@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+   <html lang="en" >
+     <head >
+        <link rel="stylesheet" href="estilo.css">
+        <!-- Add icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/c672bf2245.js" crossorigin="anonymous"></script> 
+
+
+
+     <title>Tarea 4 </title>
+ 
+   
+    </head>
+
+    <body>
+        <header>
+            <br>
+            <img src="./img/tipos-de-redes-sociales.jpg"  width="200">
+            <p>
+            <p> HTML |  CSS | JavaScript 
+        </header>                   
+        <h1 >Mi primera página</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur<br> 
+            adipisicing elit.<br> Voluptatibus qui eum eius et incidunt quasi,<br> porro ea.
+             <span class="rojo"> Sit cupiditate voluptas itaque id<br> deserunt maxime</span>, <br>repudiandae recusandae, architecto,<br> repellendus labore eaque?</br>
+             
+        <h2> lista de algunas redes sociales </h2> 
+            <ul>             
+                    <li><a href="http://www.facebook.com" class="fab fa-facebook"> Facebook </a></li>
+                    <li><a href="http://www.Instagram.com" class="fab fa-instagram">Instagram </a></li>
+                    <li><a href="http://www.Twitter.com" class="fab fa-twitter"> Twitter</a></li> 
+                    <li><a href="http://www.linkedIn.com" class="fab fa-linkedin">linkedIn </a></li> 
+            </ul>     
+            <button id="toggleBloque" onclick="toggleSection()"> mostrar Operaciones</button>
+                <div id="OperacionesContenedor">
+                    <label for="myNumber1"> Numero 1:</label>           
+                    <input type="number" id="myNumber1" >
+
+                    <label for="myNumber2"> Numero 2:</label>
+                    <input type="number" id="myNumber2">
+
+                    <div class="operaciones">
+                        <button onclick="sumar('myNumber1','myNumber2')"> Sumar </button>
+                        <button onclick="restar()"> Restar </button>
+                        <button onclick="multiplicar()"> Multiplicar</button>
+                    </div>
+                    <p id="result"></p>
+                </div>
+        </p>
+        <footer> <p> Hecho por Daniela Solis B.</p></footer>
+        <script src="scripts/miscript.js" type="text/javascript" ></script>
+      </body>
+</html>
+
+
+       
